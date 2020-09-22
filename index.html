@@ -10,26 +10,26 @@
     
 </head>
 <body>
-    div
+    <div class="main-wrapper">
     <header>
-        <nav class="nav-bar">
-            <div class="top-left">
-                    <div>
-                        <ion-icon name="menu-outline"></ion-icon>
-                    </div>
-                    <div>
-                        <ion-icon name="search-outline"></ion-icon>
-                    </div>
-                    <div>
-                        <a href="https://www.nytimes.com/section/science/space">SPACE & COSMOS</a>
-                    </div>
+        <nav class="d-flex nav-bar">
+            <div class="d-flex top-left">
+                <div class="search-icon">
+                    <ion-icon class="navbar-icons" name="menu-outline"></ion-icon>
+                </div>
+                <div class="search-icon">
+                    <ion-icon class="navbar-icons" name="search-outline"></ion-icon>
+                </div>
+                <div>
+                    <a href="https://www.nytimes.com/section/science/space">SPACE & COSMOS</a>
+                </div>
             </div>
-            <div class="center-top">
-                <span>The new york Times</span>
-            </div>
+                <div class="center-top">
+                    <a href="https://www.nytimes.com/" class="nyt-logo"><img src="https://upload.wikimedia.org/wikipedia/commons/5/58/NewYorkTimes.svg" alt="New York Times Logo"></a>
+                </div>
             <div class="top-right">
-                <button>Subscribe Now</button>
-                <button>login</button>
+                <button class="subscribe-button">SUBSCRIBE NOW</button>
+                <button class="login-button">LOG IN</button>
             </div>
         </nav>
     </header>
@@ -102,5 +102,6 @@
         </article>
     </main>
     <footer></footer>
+</div>
 </body>
 </html>
