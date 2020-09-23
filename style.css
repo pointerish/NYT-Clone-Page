@@ -254,25 +254,55 @@ span[class*='title-in-span'] {
   font-weight: bold;
   margin-right: 5px;
 }
-.figure2{
-margin-left: -1px;
+
+.figure2 {
+  margin-left: -1px;
 }
-.figure2 figcaption{
+
+.figure2 figcaption {
   width: 565px;
   font-size: 13px;
   margin-top: -7px;
-
 }
-.figure3 img{
+
+.figure3 img {
   width: 600px;
   height: 400px;
   margin-left: -40px;
 }
-.figure3 figcaption{
+
+.figure3 figcaption {
   width: 565px;
   height: 58px;
   font-size: 16px;
   margin-top: -7px;
-   line-height: 95%; 
+  line-height: 95%; 
   margin-left: -40px;
+}
+
+.social-icons-footer {
+  display: flex;
+}
+
+.article-version-info {
+  color: #666666;
+  font-size: 12px;
+  line-height: 125%;
+  width: 575px;
+  height: 32px;
+  margin-bottom: 20px;
+}
+
+.article-version-info a {
+  color: #666666;
+}
+
+.social-icons-footer {
+  border: solid;
+  float: left;
+  width: 575px;
+}
+
+.social-icons {
+  float: right;
 }
