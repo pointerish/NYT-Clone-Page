@@ -7,6 +7,12 @@
   display: grid;
 }
 
+.main-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
 nav {
   display: flex;
   flex-direction: row;
@@ -148,3 +154,103 @@ hr{
   color: #326891 ;
 }
 
+.theory-title {
+  font-size: 18px;
+  font-family: 'georgia,times new roman,times,serif;';
+  margin-left: -150px;
+  line-height: 30%;
+  font-weight: bold;
+  margin-top: 50px;
+}
+
+.image-descriptor p {
+  line-height: 150%;
+  width: 910px;
+  height: 35px;
+  font-size: 14px;
+  font-family: 'georgia,times new roman,times,serif;';
+  margin-left: -150px;
+  color: #666666;
+}
+
+.image-text-container {
+  position: relative; 
+  margin-left: -150px;
+  margin-top: 100px;
+}
+
+.txt-onimage-1 { 
+  position: absolute; 
+  top: 120px; 
+  left: 0; 
+  width: 100%; 
+}
+
+.txt-onimage-2 { 
+  position: absolute; 
+  top: 120px; 
+  left: 270px; 
+  width: 100%; 
+}
+
+.txt-onimage-3 { 
+  position: absolute; 
+  top: 120px; 
+  left: 540px; 
+  width: 100%; 
+}
+
+.txt-onimage-4 { 
+  position: absolute; 
+  top: 120px; 
+  left: 810px; 
+  width: 100%; 
+}
+
+.txt-onimage-5 { 
+  position: absolute; 
+  top: 400px; 
+  left: 0; 
+  width: 100%; 
+}
+
+.txt-onimage-6 { 
+  position: absolute; 
+  top: 400px; 
+  left: 270px; 
+  width: 100%; 
+}
+
+.txt-onimage-7 { 
+  position: absolute; 
+  top: 400px; 
+  left: 540px; 
+  width: 100%; 
+}
+
+.txt-onimage-8 { 
+  position: absolute; 
+  top: 400px; 
+  left: 810px; 
+  width: 100%; 
+}
+
+.title-in-span span {
+  font-size: 14px;
+  font-weight: bold;
+}
+
+p[class*='txt-onimage-'] {
+  width: 228px;
+  height: 120px;
+  font-family: arial,helvetica,sans-serif;
+  font-size: 11px;
+  line-height: 17px;
+  font-weight: 300;
+  color: #000000;
+}
+
+.title-in-span span {
+  font-size: 14px;
+  font-weight: bold;
+}
