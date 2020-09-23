@@ -254,3 +254,25 @@ span[class*='title-in-span'] {
   font-weight: bold;
   margin-right: 5px;
 }
+.figure2{
+margin-left: -1px;
+}
+.figure2 figcaption{
+  width: 565px;
+  font-size: 13px;
+  margin-top: -7px;
+
+}
+.figure3 img{
+  width: 600px;
+  height: 400px;
+  margin-left: -40px;
+}
+.figure3 figcaption{
+  width: 565px;
+  height: 58px;
+  font-size: 16px;
+  margin-top: -7px;
+   line-height: 95%; 
+  margin-left: -40px;
+}
