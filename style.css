@@ -95,11 +95,10 @@ button {
   flex-direction: row;
   align-items: center;
   justify-content: space-between; 
-   max-width: 550px; 
+  max-width: 550px; 
 }
 
-/*
-.social-icons{
+.social-icons {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
@@ -107,11 +106,12 @@ button {
   width: 160px;
 
 }
+
 .save{
   color: #999;
   font-size: 30px;
   align-items: center;
-}
+}/*
 .chatbox{
   font-size: 30px;
   align-self: center;
