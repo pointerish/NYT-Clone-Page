@@ -104,24 +104,24 @@ button {
   justify-content: space-between;
   align-items: center;
   width: 160px;
-
 }
 
-.save{
+.save {
   color: #999;
   font-size: 30px;
   align-items: center;
-}/*
-.chatbox{
+}
+
+.chatbox {
   font-size: 30px;
   align-self: center;
   background: transparent;
   justify-content: center;
- 
 }
-.article-content{
+
+.article-content {
   margin-left: 300px;
   max-width: 550px; 
   font-size: 20px;
   line-height: 30px;
-} */ */
+}
