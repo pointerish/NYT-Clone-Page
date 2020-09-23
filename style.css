@@ -180,30 +180,30 @@ hr{
 }
 
 .txt-onimage-1 { 
-  position: absolute; 
-  top: 120px; 
-  left: 0; 
-  width: 100%; 
+  position: absolute;
+  top: 120px;
+  left: 0;
+  width: 100%;
 }
 
 .txt-onimage-2 { 
   position: absolute; 
   top: 120px; 
-  left: 270px; 
-  width: 100%; 
+  left: 250px; 
+  width: 100%;
 }
 
 .txt-onimage-3 { 
   position: absolute; 
   top: 120px; 
-  left: 540px; 
-  width: 100%; 
+  left: 480px; 
+  width: 100%;
 }
 
 .txt-onimage-4 { 
   position: absolute; 
   top: 120px; 
-  left: 810px; 
+  left: 725px; 
   width: 100%; 
 }
 
@@ -211,28 +211,28 @@ hr{
   position: absolute; 
   top: 400px; 
   left: 0; 
-  width: 100%; 
+  width: 100%;
 }
 
 .txt-onimage-6 { 
-  position: absolute; 
-  top: 400px; 
-  left: 270px; 
-  width: 100%; 
+  position: absolute;
+  top: 400px;
+  left: 250px;
+  width: 100%;
 }
 
 .txt-onimage-7 { 
-  position: absolute; 
-  top: 400px; 
-  left: 540px; 
-  width: 100%; 
+  position: absolute;
+  top: 400px;
+  left: 480px;
+  width: 100%;
 }
 
 .txt-onimage-8 { 
-  position: absolute; 
-  top: 400px; 
-  left: 810px; 
-  width: 100%; 
+  position: absolute;
+  top: 400px;
+  left: 725px;
+  width: 100%;
 }
 
 .title-in-span span {
@@ -244,13 +244,13 @@ p[class*='txt-onimage-'] {
   width: 228px;
   height: 120px;
   font-family: arial,helvetica,sans-serif;
-  font-size: 11px;
+  font-size: 10px;
   line-height: 17px;
   font-weight: 300;
   color: #000000;
 }
 
-.title-in-span span {
-  font-size: 14px;
+span[class*='title-in-span'] {
   font-weight: bold;
+  margin-right: 5px;
 }
