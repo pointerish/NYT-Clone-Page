@@ -28,7 +28,7 @@ nav {
   top: 0;
   width: 100%;
   overflow: hidden;
-  background-color: #ffffff;
+  background-color: #fff;
 }
 
 .top-left {
@@ -73,7 +73,7 @@ button {
 .article-title {
   margin-left: 300px;
   color: #121212;
-  font-family: georgia,'times new roman',times,serif;
+  font-family: georgia, times, serif;
   font-weight: 700;
   font-style: italic;
   max-width: 550px;
@@ -93,7 +93,7 @@ button {
   margin-right: 400px;
   width: 700px;
   color: #666;
-  font-family: nyt-imperial,georgia,'times new roman',times,serif;
+  font-family: nyt-imperial, georgia, times, serif;
   font-size: 15px;
   line-height: 20px;
   margin-bottom: 30px;
@@ -101,7 +101,7 @@ button {
 
 .author {
   margin-left: 300px;
-  font-family: helvetica,arial,sans-serif;
+  font-family: helvetica, arial, sans-serif;
   font-weight: bold;
   font-size: 14px;
 }
@@ -144,7 +144,7 @@ button {
 }
 
 hr {
-  border: 1px solid #cccccc;
+  border: 1px solid #ccc;
   align-items: center;
   max-width: 72px;
 }
@@ -156,7 +156,6 @@ hr {
   line-height: 19px;
   text-align: center;
   max-width: 290px;
-  text-align: center;
   margin-left: 140px;
 }
 
@@ -167,7 +166,7 @@ hr {
 
 .theory-title {
   font-size: 18px;
-  font-family: 'georgia,times new roman,times,serif;';
+  font-family: georgia, times, serif;
   margin-left: -150px;
   line-height: 30%;
   font-weight: bold;
@@ -179,9 +178,9 @@ hr {
   width: 910px;
   height: 35px;
   font-size: 14px;
-  font-family: 'georgia,times new roman,times,serif;';
+  font-family: georgia, times, serif;
   margin-left: -150px;
-  color: #666666;
+  color: #666;
 }
 
 .image-text-container {
@@ -246,11 +245,11 @@ hr {
 p[class*='txt-onimage-'] {
   width: 228px;
   height: 120px;
-  font-family: arial,helvetica,sans-serif;
+  font-family: arial, helvetica, sans-serif;
   font-size: 10px;
   line-height: 17px;
   font-weight: 300;
-  color: #000000;
+  color: #000;
 }
 
 span[class*='title-in-span'] {
@@ -284,7 +283,7 @@ span[class*='title-in-span'] {
 }
 
 .article-version-info {
-  color: #666666;
+  color: #666;
   font-size: 12px;
   line-height: 125%;
   width: 575px;
@@ -293,7 +292,7 @@ span[class*='title-in-span'] {
 }
 
 .article-version-info a {
-  color: #666666;
+  color: #666;
 }
 
 .icons-social-footer {
@@ -344,7 +343,7 @@ span[class*='title-in-span'] {
   font-size: 16px;
   font-weight: 500;
   margin-left: 10px;
-  color: #000000;
+  color: #000;
 }
 
 /* FOOTER SECTION */
@@ -356,11 +355,12 @@ footer {
 .footer-section1 {
   margin-left: 20px;
   display: grid;
-  grid-template-areas: "venus mountain solar-forcast aside-footer"
-  "life-on-venus orbit-earth rendezvous aside-footer ";
+  grid-template-areas:
+    "venus mountain solar-forcast aside-footer"
+    "life-on-venus orbit-earth rendezvous aside-footer";
   grid-column-gap: 10px;
   grid-template-columns: 280px 280px 280px 280px;
-  grid-template-rows: repeat(3,1fr);
+  grid-template-rows: repeat(3, 1fr);
 }
 
 .footer-section1 a {
@@ -415,7 +415,7 @@ footer {
   font-size: 1.125rem;
   font-weight: 500;
   line-height: 1.375rem;
-  text-decoration: none;
+  width: 310px;
 }
 
 footer hr {
@@ -427,8 +427,9 @@ footer hr {
   margin-top: -400px;
   margin-left: 40px;
   column-gap: 12px;
-  grid-template-areas: "h4 h4 h4 h4"
-  "pick-1 pick-2 pick-3 .";
+  grid-template-areas:
+    "h4 h4 h4 h4"
+    "pick-1 pick-2 pick-3 .";
   grid-template-columns: 280px 280px 280px 280px;
 }
 
@@ -479,7 +480,7 @@ footer hr {
   grid-template-areas: "more-in-space filler more-popular";
   grid-column-gap: 20px;
   grid-template-columns: 920px 10px 474px;
-  grid-template-rows: repeat(1,40px);
+  grid-template-rows: repeat(1, 40px);
   margin-top: 20px;
 }
 
@@ -511,10 +512,6 @@ footer hr {
   margin-left: 60px;
 }
 
-.aside-footer p {
-  width: 310px;
-}
-
 .aside-footer p a {
   text-decoration: none;
   width: 310px;
@@ -537,7 +534,7 @@ footer hr {
 }
 
 .footer-section1 > figure > figcaption > h4:hover {
-  color: #666666;
+  color: #666;
 }
 
 .footer-section1 > figure > figcaption > h6 {
@@ -546,12 +543,12 @@ footer hr {
   font-size: 12px;
   margin-top: -10px;
   margin-left: 4px;
-  color: #666666;
+  color: #666;
 }
 
 .footer-section1 > figure > figcaption > p {
   margin-left: 4px;
-  color: #999999;
+  color: #999;
   font-size: 12px;
   padding-top: -20px;
 }
