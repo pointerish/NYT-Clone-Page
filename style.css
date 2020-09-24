@@ -42,8 +42,8 @@ nav {
   color: black;
   font-family: Arial, Helvetica, sans-serif;
   font-size: 14.25px;
-   
 }
+
 .top-right {
   width: 270px;
   justify-content: space-around;
@@ -85,11 +85,11 @@ button {
   height: 530px;
 }
 
-.image { 
+.image {
   margin-left: 12%;
 }
 
-.image p { 
+.image p {
   margin-right: 400px;
   width: 700px;
   color: #666;
@@ -109,8 +109,8 @@ button {
 .date-social-wrapper {
   margin-left: 300px;
   align-items: center;
-  justify-content: space-between; 
-  max-width: 550px; 
+  justify-content: space-between;
+  max-width: 550px;
 }
 
 .social-icons {
@@ -134,7 +134,7 @@ button {
 
 .article-content {
   margin-left: 300px;
-  max-width: 550px; 
+  max-width: 550px;
   font-size: 20px;
   line-height: 30px;
 }
@@ -143,26 +143,26 @@ button {
   color: #326891;
 }
 
-hr{
+hr {
   border: 1px solid #cccccc;
   align-items: center;
- max-width: 72px; 
+  max-width: 72px;
 }
 
-.middle-p{
+.middle-p {
   font-family: nyt-franklin, helvetica, arial, sans-serif;
-    font-weight: 700;
-    font-size: 15px;
-    line-height: 19px;
-    text-align: center;
-     max-width: 290px; 
-    text-align: center;
-    margin-left: 140px; 
+  font-weight: 700;
+  font-size: 15px;
+  line-height: 19px;
+  text-align: center;
+  max-width: 290px;
+  text-align: center;
+  margin-left: 140px;
 }
 
-.middle-p a{
+.middle-p a {
   text-decoration: none;
-  color: #326891 ;
+  color: #326891;
 }
 
 .theory-title {
@@ -185,7 +185,7 @@ hr{
 }
 
 .image-text-container {
-  position: relative; 
+  position: relative;
   margin-left: -150px;
   margin-top: 100px;
 }
@@ -197,36 +197,36 @@ hr{
 }
 
 .txt-onimage-2 {
-  top: 120px; 
-  left: 250px; 
+  top: 120px;
+  left: 250px;
   width: 100%;
 }
 
 .txt-onimage-3 {
-  top: 120px; 
-  left: 480px; 
+  top: 120px;
+  left: 480px;
   width: 100%;
 }
 
 .txt-onimage-4 {
-  top: 120px; 
-  left: 725px; 
-  width: 100%; 
-}
-
-.txt-onimage-5 {
-  top: 400px; 
-  left: 0; 
+  top: 120px;
+  left: 725px;
   width: 100%;
 }
 
-.txt-onimage-6 { 
+.txt-onimage-5 {
+  top: 400px;
+  left: 0;
+  width: 100%;
+}
+
+.txt-onimage-6 {
   top: 400px;
   left: 250px;
   width: 100%;
 }
 
-.txt-onimage-7 { 
+.txt-onimage-7 {
   top: 400px;
   left: 480px;
   width: 100%;
@@ -279,7 +279,7 @@ span[class*='title-in-span'] {
   height: 58px;
   font-size: 16px;
   margin-top: -7px;
-  line-height: 95%; 
+  line-height: 95%;
   margin-left: -40px;
 }
 
@@ -317,7 +317,7 @@ span[class*='title-in-span'] {
 
 .editor-picks {
   float: right;
-  margin-top: -9500px;
+  margin-top: -9200px;
   margin-right: 350px;
   margin-left: 1000px;
   width: 210px;
@@ -356,13 +356,11 @@ footer {
 .footer-section1 {
   margin-left: 20px;
   display: grid;
-  grid-template-areas:
-  "venus mountain solar-forcast aside-footer"
+  grid-template-areas: "venus mountain solar-forcast aside-footer"
   "life-on-venus orbit-earth rendezvous aside-footer ";
   grid-column-gap: 10px;
-  grid-template-columns:300px 300px 300px 300px;
-  /*grid-template-columns:1fr 1fr 1fr 1.5fr;*/
-  grid-template-rows: repeat(3,1fr);  
+  grid-template-columns: 280px 280px 280px 280px;
+  grid-template-rows: repeat(3,1fr);
 }
 
 .footer-section1 a {
@@ -385,7 +383,7 @@ footer {
   padding: 5px;
 }
 
-.mountain { 
+.mountain {
   grid-area: mountain;
 }
 
@@ -395,6 +393,7 @@ footer {
 
 .aside-footer {
   grid-area: aside-footer;
+  margin-left: 80px;
 }
 
 .life-on-venus {
@@ -426,12 +425,11 @@ footer hr {
 .footer-section2 {
   display: grid;
   margin-top: -400px;
-  margin-left: 40px; 
+  margin-left: 40px;
   column-gap: 12px;
-  grid-template-areas: 
-  "h4 h4 h4 h4"
+  grid-template-areas: "h4 h4 h4 h4"
   "pick-1 pick-2 pick-3 .";
-  grid-template-columns: 1fr 1fr 1fr 1.5fr;
+  grid-template-columns: 280px 280px 280px 280px;
 }
 
 .footer-section2 img {
@@ -445,6 +443,7 @@ footer hr {
 .pick-1 {
   grid-area: pick-1;
 }
+
 .pick-2 {
   grid-area: pick-2;
 }
@@ -455,10 +454,6 @@ footer hr {
 
 .footer-section3 a {
   text-decoration: none;
-}
-
-ul li {
-  list-style: none;
 }
 
 .title-section {
@@ -477,12 +472,33 @@ ul li {
 
 .footer-section1 > a {
   display: inline;
-
 }
 
 .pre-footer {
-  border-top: 1px solid black;
+  display: grid;
+  grid-template-areas: "more-in-space filler more-popular";
+  grid-column-gap: 20px;
+  grid-template-columns: 920px 10px 474px;
+  grid-template-rows: repeat(1,40px);
   margin-top: 20px;
+}
+
+.line {
+  border-top: 1px solid black;
+}
+
+.line-filler {
+  border-top: 1px solid white;
+}
+
+.more-in-space {
+  margin-left: 20px;
+  border-top: 1px solid black;
+  padding-top: 8px;
+}
+
+.more-in-space:hover {
+  text-decoration: underline;
 }
 
 .pre-footer a {
@@ -495,12 +511,13 @@ ul li {
   margin-left: 60px;
 }
 
-.pre-footer h3 {
-  margin-left: 1010px;
+.aside-footer p {
+  width: 310px;
 }
 
 .aside-footer p a {
   text-decoration: none;
+  width: 310px;
   color: black;
   font-family: nyt-cheltenham, georgia, "times new roman", times, serif;
   font-size: 18px;
@@ -510,4 +527,31 @@ ul li {
 
 .aside-footer h3 {
   max-width: 120px;
+}
+
+.footer-section1 > figure > figcaption > h4 {
+  font-family: nyt-cheltenham, georgia, "times new roman", times, serif;
+  font-size: 16px;
+  margin-left: 4px;
+  margin-top: -20px;
+}
+
+.footer-section1 > figure > figcaption > h4:hover {
+  color: #666666;
+}
+
+.footer-section1 > figure > figcaption > h6 {
+  font-family: nyt-cheltenham, georgia, "times new roman", times, serif;
+  max-width: 270px;
+  font-size: 12px;
+  margin-top: -10px;
+  margin-left: 4px;
+  color: #666666;
+}
+
+.footer-section1 > figure > figcaption > p {
+  margin-left: 4px;
+  color: #999999;
+  font-size: 12px;
+  padding-top: -20px;
 }
