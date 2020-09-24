@@ -346,3 +346,119 @@ span[class*='title-in-span'] {
   margin-left: 10px;
   color: #000000;
 }
+
+/* FOOTER SECTION */
+
+.footer-section1 {
+  margin-left: 40px;
+  display: grid;
+  grid-template-areas: 
+  "a a a h3"
+  "venus mountain solar-forcast aside-footer"
+  "life-on-venus orbit-earth rendezvous aside-footer ";
+  column-gap: 12px;
+  grid-template-columns:1fr 1fr 1fr 1.5fr;
+  grid-template-rows: repeat(3,1fr);     
+}
+
+.footer-section1 a {
+  grid-area: a;
+  text-decoration: none;
+  padding: 5px;
+}
+
+.footer-section1 img {
+  width: 270px;
+}
+
+.footer-section1 h4 {
+  max-width: 270px;
+}
+
+.footer-section1 h3 {
+  grid-area: h3;
+  padding: 5px;
+}
+
+.mountain { 
+  grid-area: mountain;
+}
+
+.solar-forcast {
+  grid-area: solar-forcast;
+}
+
+.aside-footer {
+  grid-area: aside-footer;
+}
+
+.life-on-venus {
+  grid-area: life-on-venus;
+}
+
+.orbit-earth {
+  grid-area: orbit-earth;
+}
+
+.rendezvous {
+  grid-area: rendezvous;
+}
+
+.aside-footer p {
+  text-decoration: none;
+  color: rgb(18, 18, 18);
+  font-family: nyt-cheltenham, georgia, "times new roman", times, serif;
+  font-size: 1.125rem;
+  font-weight: 500;
+  line-height: 1.375rem;
+  text-decoration: none;
+}
+
+footer hr {
+  border-top: 1px rgb(226, 226, 226) solid;
+}
+
+.footer-section2 {
+  display: grid;
+  margin-left: 40px; 
+  column-gap: 12px;
+  grid-template-areas: 
+  "h4 h4 h4 h4"
+  "pick-1 pick-2 pick-3 .";
+  grid-template-columns: 1fr 1fr 1fr 1.5fr;
+}
+
+.footer-section2 img {
+  width: 270px;
+}
+
+.footer-section2 h4 {
+  grid-area: h4;
+}
+
+.pick-1 {
+  grid-area: pick-1;
+}
+.pick-2 {
+  grid-area: pick-2;
+}
+
+.pick-3 {
+  grid-area: pick-3;
+}
+
+.footer-section3 a {
+  text-decoration: none;
+}
+
+ul li {
+  list-style: none;
+}
+
+.title-section {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  border: solid;
+}
