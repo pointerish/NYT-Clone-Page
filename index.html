@@ -12,10 +12,10 @@
 </head>
 
 <body>
-    <div class="main-wrapper">
+    <div class="d-flex main-wrapper">
         <header>
-            <nav>
-                <div class="top-left">
+            <nav class="d-flex">
+                <div class="d-flex top-left">
                     <div>
                         <ion-icon class="navbar-icons" name="menu-outline"></ion-icon>
                     </div>
@@ -31,7 +31,7 @@
                             src="https://upload.wikimedia.org/wikipedia/commons/5/58/NewYorkTimes.svg"
                             alt="New York Times Logo"></a>
                 </div>
-                <div class="top-right">
+                <div class="d-flex top-right">
                     <div> <button class="subscribe-button">SUBSCRIBE NOW</button></div>
                     <div>
                         <button class="login-button">LOG IN</button>
@@ -42,7 +42,7 @@
         </header>
 
 
-        <main class="main-content">
+        <main class="d-flex main-content">
             <h1 class="article-title">Space Ripples Reveal Big Bang’s Smoking Gun</h1>
 
             <div class="image">
@@ -56,11 +56,11 @@
             </div>
 
             <div class="author">By Dennis Overbye</div>
-            <div class="date-social-wrapper">
+            <div class="d-flex date-social-wrapper">
                 <div class="article-date">
                     <p>March 17, 2014
                 </div>
-                <div class="social-icons">
+                <div class="d-flex social-icons">
                     <div class="facebook">
                         <ion-icon name="logo-facebook"></ion-icon>
                     </div>
@@ -271,33 +271,48 @@
                     away, forever out of our view.</p>
                 <p>“If you trace your cosmic roots,” said Abraham Loeb, a Harvard-Smithsonian astronomer who was not
                     part of the team, “you wind up at inflation.”</p>
-                    <div class="footer-social-wrapper">
-                        <div class="article-version-info">
-                            A version of this article appears in print on March 18, 2014, Section A, Page 1 of the New York edition with the headline: Space Ripples Reveal Big Bang’s Smoking Gun. <a href="https://www.parsintl.com/publication/the-new-york-times/">Order Reprints</a> | <a href="https://www.nytimes.com/section/todayspaper">Today’s Paper</a> | <a href="https://www.nytimes.com/subscription?campaignId=48JQY">Subscribe</a>
-                        </div>
-                        <div class="social-icons-footer">
+
+                    <div class="article-version-info">
+                        A version of this article appears in print on March 18, 2014, Section A, Page 1 of the New York edition with the headline: Space Ripples Reveal Big Bang’s Smoking Gun. <a href="https://www.parsintl.com/publication/the-new-york-times/">Order Reprints</a> | <a href="https://www.nytimes.com/section/todayspaper">Today’s Paper</a> | <a href="https://www.nytimes.com/subscription?campaignId=48JQY">Subscribe</a>
+                    </div>
+                    <div class="d-flex footer-social-wrapper">
                         <button class="read-comments-button">READ 615 COMMENTS</button>
-                        <div class="social-icons">
-                            <div class="facebook">
-                                <ion-icon name="logo-facebook"></ion-icon>
-                            </div>
-                            <div class="twitter">
-                                <ion-icon name="logo-twitter"></ion-icon>
-                            </div>
-                            <div class="mail">
-                                <ion-icon name="mail-outline"></ion-icon>
-                            </div>
-                            <div class="share">
-                                <ion-icon name="arrow-redo-outline"></ion-icon>
-                            </div>
-                        </div>
+                        <div class="d-flex icons-social-footer">
+                        <ion-icon class="d-flex logo-footer" name="logo-facebook"></ion-icon>
+                        <ion-icon class="d-flex logo-footer" name="logo-twitter"></ion-icon>
+                        <ion-icon class="d-flex logo-footer" name="mail-outline"></ion-icon>
+                        <ion-icon class="d-flex logo-footer" name="arrow-redo-outline"></ion-icon>
                     </div>
                     </div>
-                <aside class="editor-picks"></aside>
             </article>
         </main>
         <footer></footer>
     </div>
+    <aside class="editor-picks">
+        <div class="d-flex editorpicks-container">
+        <span class="editorpick-title">
+            Editor's Picks
+        </span>
+        <div class="editorspick-selection">
+            <a href="https://www.nytimes.com/2020/09/22/magazine/turkish-baths-istanbul.html?action=click&algo=bandit-story_desk_filter&block=editors_picks_recirc&fellback=false&imp_id=93665437&impression_id=8d831700-fde8-11ea-bd50-39223e1fe9a7&index=0&pgtype=Article&region=ccolumn&req_id=118159846&surface=home-featured&action=click&module=editorContent&pgtype=Article&region=CompanionColumn&contentCollection=Trending">
+                <img class="editorpick-img" src="https://static01.nyt.com/images/2020/09/27/magazine/27mag-bath/27mag-bath-square640-v5.jpg?quality=75&auto=webp&disable=upscale&width=350" alt=""/>
+                <span class="editorpick-article-title">Is It Strange To Say I Miss The Bodies Of Strangers?</span>
+            </a>
+        </div>
+        <div class="editorspick-selection">
+            <a href="https://www.nytimes.com/2020/09/22/parenting/parental-burnout-pandemic.html?action=click&algo=bandit-story_desk_filter&block=editors_picks_recirc&fellback=false&imp_id=417434699&impression_id=1e9187d0-fdea-11ea-a86d-3143e9a6e1e8&index=0&pgtype=Article&region=ccolumn&req_id=735394796&surface=home-featured&action=click&module=editorContent&pgtype=Article&region=CompanionColumn&contentCollection=Trending">
+                <img class="editorpick-img" src="https://static01.nyt.com/images/2020/09/22/multimedia/22parenting-martyr/22parenting-martyr-square640-v2.jpg?quality=75&auto=webp&disable=upscale&width=350" alt=""/>
+                <span class="editorpick-article-title">How Burnout Became The Norm for American Parents</span>
+            </a>
+        </div>
+        <div class="editorspick-selection">
+            <a href="https://www.nytimes.com/2020/09/22/dining/pantry-recipes.html?action=click&algo=bandit-story_desk_filter&block=editors_picks_recirc&fellback=false&imp_id=15259933&impression_id=64302482-fdeb-11ea-9d55-43e3b872b270&index=2&pgtype=Article&region=ccolumn&req_id=541043179&surface=home-featured&action=click&module=editorContent&pgtype=Article&region=CompanionColumn&contentCollection=Trending">
+                <img class="editorpick-img" src="https://static01.nyt.com/images/2020/09/23/dining/21pantry1/21pantry1-square640.jpg?quality=75&auto=webp&disable=upscale&width=350" alt=""/>
+                <span class="editorpick-article-title">5 Recipes That Are a Sure Thing in an Uncertain Time</span>
+            </a>
+        </div>
+    </div>
+    </aside>
 </body>
 
 </html>
