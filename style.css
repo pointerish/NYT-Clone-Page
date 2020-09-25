@@ -437,10 +437,6 @@ footer {
   padding-bottom: 15px;
 }
 
-.aside-footer p a:hover {
-  color: #666;
-}
-
 footer hr {
   border-top: 1px rgb(226, 226, 226) solid;
 }
@@ -448,11 +444,11 @@ footer hr {
 .footer-section2 {
   display: grid;
   margin-top: -400px;
-   margin-left: 30px; 
+  margin-left: 30px; 
   column-gap: 12px;
   grid-template-areas:
-    "h4 h4 h4 "
-    "pick-1 pick-2 pick-3 ";
+  "h4 h4 h4 "
+  "pick-1 pick-2 pick-3";
   grid-template-columns: 280px 280px 280px;
 }
 
@@ -466,7 +462,6 @@ footer hr {
   border-top: 1px solid;
   width: 99%;
   padding-top: 10px;
-
 }
 
 .footer-section2 h3 {
@@ -489,6 +484,44 @@ footer hr {
   text-decoration: none;
 }
 
+.footer-section1 > a {
+  display: inline;
+}
+
+.home-page-link a {
+  color: rgb(86, 123, 149);
+  font-family: nyt-franklin, helvetica, arial, sans-serif;
+  font-size: 11px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 11px;
+  text-decoration: none;
+}
+
+.aside-footer p a {
+  text-decoration: none;
+  width: 310px;
+  color: black;
+  font-family: nyt-cheltenham, georgia, "times new roman", times, serif;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 125%;
+}
+
+.pre-footer a {
+  margin-top: 20px;
+  font-family: nyt-cheltenham, georgia, "times new roman", times, serif;
+  font-size: 16px;
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+  padding-top: 8px;
+}
+
+.aside-footer p a:hover {
+  color: #666;
+}
+
 .title-section {
   display: flex;
   flex-direction: row;
@@ -503,10 +536,6 @@ footer hr {
   margin: 5px;
 }
 
-.footer-section1 > a {
-  display: inline;
-}
-
 .pre-footer {
   display: grid;
   grid-template-areas: "more-in-space filler more-popular";
@@ -514,16 +543,12 @@ footer hr {
   grid-template-columns: 920px 10px 474px;
   grid-template-rows: repeat(1, 40px);
   margin-top: 20px;
+  margin-left: 67px;
+  width: 65%;
 }
 
 .line {
   border-top: 1px solid black;
-}
-
-.pre-footer {
-  width: 65%;
-  justify-content: space-between;
-  margin-left: 67px;
 }
 
 .more-in-space {
@@ -540,28 +565,16 @@ footer hr {
   text-decoration: underline;
 }
 
-.pre-footer a {
-  margin-top: 20px;
-  font-family: nyt-cheltenham, georgia, "times new roman", times, serif;
-  font-size: 16px;
-  text-decoration: none;
-  color: black;
-  font-weight: bold;
-  padding-top: 8px;
-}
-
-.aside-footer p a {
-  text-decoration: none;
-  width: 310px;
-  color: black;
-  font-family: nyt-cheltenham, georgia, "times new roman", times, serif;
-  font-size: 18px;
-  font-weight: 500;
-  line-height: 125%;
-}
-
 .aside-footer h3 {
   max-width: 120px;
+}
+
+.footer-section1 > figure > span {
+  font-size: 12px;
+  margin-top: -10px;
+  font-family: nyt-cheltenham, georgia, "times new roman", times, serif;
+  color: #666;
+  font-weight: 500;
 }
 
 .footer-section1 > figure > figcaption > h4 {
@@ -580,7 +593,6 @@ footer hr {
   color: #666;
   font-size: 12px;
   margin-top: -10px;
-  
 }
 
 .footer-section2 > figure > h3 {
@@ -599,22 +611,14 @@ footer hr {
   color: #666;
   text-align: right;
 }
-.footer-section2 > figure > span{
+
+.footer-section2 > figure > span {
   color: #666;
   font-size: 12px;
 }
 
 .footer-section2 > figure > h3:hover {
   color: #666;
-}
-
-.footer-section1 > figure > span {
-  color: #666;
-  font-size: 12px;
-  margin-top: -10px;
-  font-family: nyt-cheltenham, georgia, "times new roman", times, serif;
-  color: #666;
-  font-weight: 500;
 }
 
 .footer-section1 > figure > figcaption > h6 {
@@ -647,16 +651,6 @@ footer hr {
 
 .home-page-link {
   margin-top: 10px;
-}
-
-.home-page-link a {
-  color: rgb(86, 123, 149);
-  font-family: nyt-franklin, helvetica, arial, sans-serif;
-  font-size: 11px;
-  font-style: normal;
-  font-weight: 400;
-  line-height: 11px;
-  text-decoration: none;
 }
 
 .end-section-columns {
@@ -754,6 +748,3 @@ footer hr {
 .bottom-links > span:hover {
   text-decoration: underline;
 }
-
-
-
