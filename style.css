@@ -288,12 +288,12 @@ span[class*='title-in-span'] {
   margin-top: -7px;
   line-height: 95%;
   margin-left: -40px;
-  font-family: nyt-imperial,georgia,'times new roman',times,serif;
+  font-family: nyt-imperial, georgia, times, serif;
   color: #666;
 }
 
 .figure3 > figcaption > span {
-  font-family: nyt-imperial,georgia,'times new roman',times,serif;
+  font-family: nyt-imperial, georgia, times, serif;
   color: #666;
   font-size: 14px;
 }
@@ -693,9 +693,12 @@ footer hr {
 }
 
 .column-subscribe-section {
-  padding: 0;
+  padding-left: 15px;
+  padding-top: 0%;
+  height: 95%;
   border-left: 2px solid #ccc;
   align-items: flex-start;
+  margin-top: 10px;
 }
 
 .main-section h3 {
@@ -703,7 +706,54 @@ footer hr {
   font-size: 13px;
   font-weight: 700;
   font-family: nyt-franklin, helvetica, arial, sans-serif;
-  height: 25px;
+  height: 20px;
   line-height: 15px;
   text-transform: uppercase;
+  margin: 0px;
 }
+
+.icon-text-container > div > span {
+  padding-top: 0px;
+}
+
+.txt-ionicon-pos {
+  font-family: nyt-franklin, helvetica, arial, sans-serif;
+  color: #000;
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 26px;;
+}
+
+.column-subscribe-section > div.section {
+  color: #000;
+  font-size: 11px;
+}
+
+.column-subscribe-section > div.section > p:hover {
+  text-decoration: underline;
+}
+
+.column-subscribe-section > div.section:nth-child(3) {
+  border-top: 0.5px solid lightgrey;
+}
+
+.bottom-links {
+  width: 90%;
+  margin-left: 75px;
+  border-top: 0.5px solid lightgrey;
+  justify-content: space-around;
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+
+.bottom-links > span {
+  font-size: 11px;
+  color: #666;
+}
+
+.bottom-links > span:hover {
+  text-decoration: underline;
+}
+
+
+
