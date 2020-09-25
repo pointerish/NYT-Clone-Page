@@ -1,4 +1,4 @@
 .vscode
 node_modules
-hint_report
+hint-report
 *.json

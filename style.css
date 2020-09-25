@@ -559,6 +559,7 @@ footer hr {
   color: #666;
   font-size: 12px;
   margin-top: -10px;
+  
 }
 
 .footer-section2 > figure > h3 {
@@ -566,12 +567,20 @@ footer hr {
   font-weight: 500;
   color: rgb(18, 18, 18);
   margin-left: 4px;
+  width: 270px;
 }
 
 .footer-section2 > figure > h6 {
   margin-top: 0;
-  font-weight: normal;
-  width: 100%;
+  font-weight: 500;
+  width: 270px;
+  font-family: nyt-cheltenham, georgia, "times new roman", times, serif;
+  color: #666;
+  text-align: right;
+}
+.footer-section2 > figure > span{
+  color: #666;
+  font-size: 12px;
 }
 
 .footer-section2 > figure > h3:hover {
@@ -582,6 +591,9 @@ footer hr {
   color: #666;
   font-size: 12px;
   margin-top: -10px;
+  font-family: nyt-cheltenham, georgia, "times new roman", times, serif;
+  color: #666;
+  font-weight: 500;
 }
 
 .footer-section1 > figure > figcaption > h6 {
@@ -643,7 +655,7 @@ footer hr {
   line-height: 15px;
   text-transform: uppercase;
 }
-/* 
+
 .end-section-columns > div > p {
   color: #000;
   font-family: nyt-franklin, helvetica, arial, sans-serif;
@@ -665,4 +677,4 @@ footer hr {
 
 .column-subscribe-section.main-section {
   margin-top: -10px;
-} */
+} 
