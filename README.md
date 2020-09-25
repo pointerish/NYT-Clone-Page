@@ -4,7 +4,7 @@
 
 A New York Times Article clone.
 
-![screenshot](./assets/screenshot.png)
+![screenshot](screenshot.png)
 
 
 ## Built With
@@ -26,7 +26,8 @@ A New York Times Article clone.
 **Che Blanchard**
 
 - GitHub: [@che30](https://github.com/che30)
-- LinkedIn: [Che Blanchard](https://www.linkedin.com/)
+- Twitter: [@BlanchardNsoh](https://twitter.com/BlanchardNsoh )
+- LinkedIn: [Che Blanchard](https://www.linkedin.com/in/che-nsoh-9455271b0/)
 
 ##  Contributing
 
