@@ -432,12 +432,12 @@ footer hr {
 .footer-section2 {
   display: grid;
   margin-top: -400px;
-  margin-left: 40px;
+   margin-left: 30px; 
   column-gap: 12px;
   grid-template-areas:
-    "h4 h4 h4 h4"
-    "pick-1 pick-2 pick-3 .";
-  grid-template-columns: 280px 280px 280px 280px;
+    "h4 h4 h4 "
+    "pick-1 pick-2 pick-3 ";
+  grid-template-columns: 280px 280px 280px;
 }
 
 .footer-section2 img {
@@ -446,6 +446,11 @@ footer hr {
 
 .footer-section2 h4 {
   grid-area: h4;
+  margin-left: 40px;
+  border-top: 1px solid;
+  width: 99%;
+  padding-top: 10px;
+
 }
 
 .footer-section2 h3 {
