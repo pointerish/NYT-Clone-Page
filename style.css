@@ -448,6 +448,10 @@ footer hr {
   grid-area: h4;
 }
 
+.footer-section2 h3 {
+  grid-area: h4;
+}
+
 .pick-1 {
   grid-area: pick-1;
 }
@@ -540,8 +544,9 @@ footer hr {
 }
 
 .footer-section1 > figure > figcaption > h4 {
-  font-family: nyt-cheltenham, georgia, "times new roman", times, serif;
-  font-size: 16px;
+  font-size: 1.125rem;
+  font-weight: 500;
+  color: rgb(18, 18, 18);
   margin-left: 4px;
   margin-top: -20px;
 }
@@ -550,13 +555,43 @@ footer hr {
   color: #666;
 }
 
+.footer-section1 > figure > figcaption > span {
+  color: #666;
+  font-size: 12px;
+  margin-top: -10px;
+}
+
+.footer-section2 > figure > h3 {
+  font-size: 1.125rem;
+  font-weight: 500;
+  color: rgb(18, 18, 18);
+  margin-left: 4px;
+}
+
+.footer-section2 > figure > h6 {
+  margin-top: 0;
+  font-weight: normal;
+  width: 100%;
+}
+
+.footer-section2 > figure > h3:hover {
+  color: #666;
+}
+
+.footer-section1 > figure > span {
+  color: #666;
+  font-size: 12px;
+  margin-top: -10px;
+}
+
 .footer-section1 > figure > figcaption > h6 {
   font-family: nyt-cheltenham, georgia, "times new roman", times, serif;
-  max-width: 270px;
+  width: 270px;
   font-size: 12px;
   margin-top: -10px;
   margin-left: 4px;
   color: #666;
+  text-align: right;
 }
 
 .footer-section1 > figure > figcaption > p {
@@ -608,7 +643,7 @@ footer hr {
   line-height: 15px;
   text-transform: uppercase;
 }
-
+/* 
 .end-section-columns > div > p {
   color: #000;
   font-family: nyt-franklin, helvetica, arial, sans-serif;
@@ -630,4 +665,4 @@ footer hr {
 
 .column-subscribe-section.main-section {
   margin-top: -10px;
-}
+} */
