@@ -417,6 +417,12 @@ footer {
   font-weight: 500;
   line-height: 1.375rem;
   width: 310px;
+  border-bottom: 1px solid lightgrey;
+  padding-bottom: 15px;
+}
+
+.aside-footer p a:hover {
+  color: #666;
 }
 
 footer hr {
@@ -489,14 +495,20 @@ footer hr {
   border-top: 1px solid black;
 }
 
-.line-filler {
-  border-top: 1px solid white;
+.pre-footer {
+  width: 65%;
+  justify-content: space-between;
+  margin-left: 67px;
 }
 
 .more-in-space {
-  margin-left: 20px;
-  border-top: 1px solid black;
-  padding-top: 8px;
+  padding-top: 10px;
+  width: 92.5%;
+}
+
+.most-popular {
+  margin-left: -64px;
+  width: 60%;
 }
 
 .more-in-space:hover {
@@ -510,7 +522,7 @@ footer hr {
   text-decoration: none;
   color: black;
   font-weight: bold;
-  margin-left: 60px;
+  padding-top: 8px;
 }
 
 .aside-footer hr {
@@ -556,4 +568,70 @@ footer hr {
   color: #999;
   font-size: 12px;
   padding-top: -20px;
+}
+
+.logo-homepage {
+  width: 65%;
+  justify-content: space-between;
+  border-top: 4px solid #ccc;
+  margin-left: 80px;
+}
+
+.logo-nyt {
+  margin-top: 10px;
+}
+
+.home-page-link {
+  margin-top: 10px;
+}
+
+.home-page-link a {
+  color: rgb(86, 123, 149);
+  font-family: nyt-franklin, helvetica, arial, sans-serif;
+  font-size: 11px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 11px;
+  text-decoration: none;
+}
+
+.end-section-columns {
+  width: 65%;
+  justify-content: space-between;
+  margin-left: 80px;
+  margin-top: 40px;
+  align-items: flex-start;
+}
+
+.end-section-columns > div > h3 {
+  color: #000;
+  font-size: 13px;
+  font-weight: 700;
+  font-family: nyt-franklin, helvetica, arial, sans-serif;
+  height: 25px;
+  line-height: 15px;
+  text-transform: uppercase;
+}
+
+.end-section-columns > div > p {
+  color: #000;
+  font-family: nyt-franklin, helvetica, arial, sans-serif;
+  text-decoration: none;
+  text-transform: capitalize;
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 16px;
+}
+
+.end-section-columns > div > p:hover {
+  color: rgb(86, 123, 149);
+  text-decoration: underline;
+}
+
+.column-subscribe-section {
+  border-left: 2px solid #ccc;
+}
+
+.column-subscribe-section.main-section {
+  margin-top: -10px;
 }
