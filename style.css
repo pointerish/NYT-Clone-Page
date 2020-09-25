@@ -299,6 +299,7 @@ span[class*='title-in-span'] {
   justify-content: space-evenly;
   width: 50%;
   margin-top: 8px;
+  z-index: -1;
 }
 
 .logo-footer {
@@ -375,7 +376,7 @@ footer {
 }
 
 .footer-section1 h4 {
-  max-width: 270px;
+  width: 270px;
 }
 
 .footer-section1 h3 {
@@ -510,6 +511,10 @@ footer hr {
   color: black;
   font-weight: bold;
   margin-left: 60px;
+}
+
+.aside-footer hr {
+  width: 310px;
 }
 
 .aside-footer p a {
