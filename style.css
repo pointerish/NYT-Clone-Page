@@ -508,7 +508,7 @@ footer hr {
 
 .most-popular {
   margin-left: -64px;
-  width: 60%;
+  width: 65%;
 }
 
 .more-in-space:hover {
@@ -523,10 +523,6 @@ footer hr {
   color: black;
   font-weight: bold;
   padding-top: 8px;
-}
-
-.aside-footer hr {
-  width: 310px;
 }
 
 .aside-footer p a {
@@ -571,7 +567,7 @@ footer hr {
 }
 
 .logo-homepage {
-  width: 65%;
+  width: 90%;
   justify-content: space-between;
   border-top: 4px solid #ccc;
   margin-left: 80px;
@@ -596,7 +592,7 @@ footer hr {
 }
 
 .end-section-columns {
-  width: 65%;
+  width: 90%;
   justify-content: space-between;
   margin-left: 80px;
   margin-top: 40px;
