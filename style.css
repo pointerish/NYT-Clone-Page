@@ -1,0 +1,778 @@
+body {
+  height: 11570px;
+}
+
+.times-font {
+  font-family: nyt-franklin, helvetica, arial, sans-serif;
+}
+
+.nyt-cheltenham {
+  font-family: nyt-cheltenham, georgia, "times new roman", times, serif;
+}
+
+.d-flex {
+  display: flex;
+}
+
+.flex-column {
+  flex-direction: column;
+}
+
+.sticky {
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid #e2e2e2;
+  padding-bottom: 10px;
+  position: fixed;
+  width: 100%;
+  overflow: hidden;
+  background-color: #fff;
+  padding-top: 10px;
+  z-index: 1;
+}
+
+nav {
+  top: 0;
+}
+
+.abs-pos {
+  position: absolute;
+}
+
+.main-wrapper {
+  justify-content: space-between;
+}
+
+.main-content {
+  margin-top: 30px;
+  justify-content: center;
+}
+
+.top-left {
+  justify-content: space-around;
+  width: 300px;
+}
+
+.search-icon a {
+  text-decoration: none;
+  font-weight: bold;
+  color: black;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 14.25px;
+}
+
+.top-right {
+  width: 270px;
+  justify-content: space-around;
+  margin-right: 10px;
+  align-items: center;
+}
+
+button {
+  background-color: #567b95;
+  color: white;
+  border: 1px solid rgb(50, 104, 145);
+  border-radius: 3px;
+  width: 130px;
+  height: 32px;
+  font-size: 11px;
+  font-weight: 700;
+}
+
+.login-button {
+  width: 75px;
+}
+
+.subscribe-button {
+  margin-left: 50px;
+}
+
+.article-title {
+  margin-left: 300px;
+  color: #121212;
+  font-family: georgia, times, serif;
+  font-weight: 700;
+  font-style: italic;
+  max-width: 550px;
+  text-align: center;
+}
+
+.image-size {
+  width: 945px;
+  height: 530px;
+}
+
+.image {
+  margin-left: 12%;
+}
+
+.image-footer {
+  margin-right: 400px;
+  width: 700px;
+  color: #666;
+  font-family: nyt-imperial, georgia, times, serif;
+  font-size: 16px;
+  line-height: 20px;
+  margin-bottom: 30px;
+}
+
+.author {
+  margin-left: 300px;
+  font-family: helvetica, arial, sans-serif;
+  font-weight: bold;
+  font-size: 14px;
+}
+
+.date-social-wrapper {
+  margin-left: 300px;
+  align-items: center;
+  justify-content: space-between;
+  max-width: 550px;
+}
+
+.social-icons {
+  justify-content: space-between;
+  align-items: center;
+  width: 160px;
+}
+
+.save {
+  color: #999;
+  font-size: 30px;
+  align-items: center;
+}
+
+.chatbox {
+  position: relative;
+  font-size: 30px;
+  align-self: center;
+  background: transparent;
+  justify-content: center;
+}
+
+.chat-amount {
+  position: absolute;
+  font-size: 11px;
+  margin-left: -24px;
+  margin-top: 6px;
+}
+
+.article-content {
+  margin-left: 300px;
+  max-width: 550px;
+  font-size: 20px;
+  line-height: 30px;
+}
+
+.article-content a {
+  color: #326891;
+}
+
+hr {
+  border: 1px solid #ccc;
+  align-items: center;
+  max-width: 72px;
+}
+
+.middle-p {
+  font-weight: 700;
+  font-size: 15px;
+  line-height: 19px;
+  text-align: center;
+  max-width: 290px;
+  margin-left: 140px;
+}
+
+.middle-p a {
+  text-decoration: none;
+  color: #326891;
+}
+
+.theory-title {
+  font-size: 18px;
+  font-family: georgia, times, serif;
+  margin-left: -150px;
+  line-height: 30%;
+  font-weight: bold;
+  margin-top: 50px;
+  z-index: -1;
+}
+
+.image-descriptor p {
+  line-height: 150%;
+  width: 910px;
+  height: 35px;
+  font-size: 14px;
+  font-family: georgia, times, serif;
+  margin-left: -150px;
+  color: #666;
+}
+
+.image-text-container {
+  position: relative;
+  margin-left: -150px;
+  margin-top: 100px;
+}
+
+.txt-onimage-1 {
+  top: 120px;
+  left: 0;
+  width: 100%;
+}
+
+.txt-onimage-2 {
+  top: 120px;
+  left: 250px;
+  width: 100%;
+}
+
+.txt-onimage-3 {
+  top: 120px;
+  left: 480px;
+  width: 100%;
+}
+
+.txt-onimage-4 {
+  top: 120px;
+  left: 725px;
+  width: 100%;
+}
+
+.txt-onimage-5 {
+  top: 400px;
+  left: 0;
+  width: 100%;
+}
+
+.txt-onimage-6 {
+  top: 400px;
+  left: 250px;
+  width: 100%;
+}
+
+.txt-onimage-7 {
+  top: 400px;
+  left: 480px;
+  width: 100%;
+}
+
+.txt-onimage-8 {
+  top: 400px;
+  left: 725px;
+  width: 100%;
+}
+
+.title-in-span span {
+  font-size: 14px;
+  font-weight: bold;
+}
+
+p[class*='txt-onimage-'] {
+  width: 228px;
+  height: 120px;
+  font-family: arial, helvetica, sans-serif;
+  font-size: 10px;
+  line-height: 17px;
+  font-weight: 300;
+  color: #000;
+}
+
+span[class*='title-in-span'] {
+  font-weight: bold;
+  margin-right: 5px;
+}
+
+.figure2 {
+  margin-left: -1px;
+}
+
+.figure2 figcaption {
+  width: 565px;
+  font-size: 13px;
+  margin-top: -7px;
+}
+
+.figure3 img {
+  width: 600px;
+  height: 400px;
+  margin-left: -40px;
+}
+
+.figure3 figcaption {
+  width: 565px;
+  height: 58px;
+  font-size: 16px;
+  margin-top: -7px;
+  line-height: 95%;
+  margin-left: -40px;
+  font-family: nyt-imperial, georgia, times, serif;
+  color: #666;
+}
+
+.bottom-links > span {
+  font-size: 11px;
+  color: #666;
+}
+
+.figure3 > figcaption > span {
+  font-family: nyt-imperial, georgia, times, serif;
+  color: #666;
+  font-size: 14px;
+}
+
+.article-version-info {
+  color: #666;
+  font-size: 12px;
+  line-height: 125%;
+  width: 575px;
+  height: 32px;
+  margin-bottom: 20px;
+}
+
+.article-version-info a {
+  color: #666;
+}
+
+.icons-social-footer {
+  justify-content: space-evenly;
+  width: 50%;
+  margin-top: 8px;
+  z-index: -1;
+}
+
+.logo-footer {
+  justify-content: space-around;
+}
+
+.read-comments-button {
+  width: 330px;
+  height: 36px;
+}
+
+.footer-social-wrapper {
+  justify-content: space-between;
+}
+
+.editor-picks {
+  float: right;
+  margin-top: -9720px;
+  margin-right: 350px;
+  margin-left: 1000px;
+  width: 210px;
+  height: 328px;
+}
+
+.editorpick-title {
+  padding-bottom: 4px;
+  border-bottom: 1px solid #e2e2e2;
+}
+
+.editorspick-selection {
+  text-decoration: none;
+  display: inline-flex;
+  padding: 10px 0;
+}
+
+.editorpick-img {
+  width: 75px;
+  height: 75px;
+}
+
+.editorpick-article-title {
+  font-size: 16px;
+  font-weight: 500;
+  margin-left: 10px;
+  color: #000;
+}
+
+/* FOOTER SECTION */
+
+footer {
+  justify-content: center;
+}
+
+.footer-section1 {
+  margin-left: 20px;
+  display: grid;
+  grid-template-areas:
+    "venus mountain solar-forcast aside-footer"
+    "life-on-venus orbit-earth rendezvous aside-footer";
+  grid-column-gap: 10px;
+  grid-template-columns: 280px 280px 280px 280px;
+  grid-template-rows: repeat(3, 1fr);
+}
+
+.footer-section1 a {
+  grid-area: a;
+  text-decoration: none;
+  padding: 5px;
+  display: inline;
+}
+
+.footer-section1 img {
+  width: 270px;
+}
+
+.footer-section1 h4 {
+  width: 270px;
+}
+
+.footer-section1 h3 {
+  grid-area: h3;
+  padding: 5px;
+}
+
+.mountain {
+  grid-area: mountain;
+}
+
+.solar-forcast {
+  grid-area: solar-forcast;
+}
+
+.aside-footer {
+  grid-area: aside-footer;
+  margin-left: 80px;
+}
+
+.life-on-venus {
+  grid-area: life-on-venus;
+}
+
+.orbit-earth {
+  grid-area: orbit-earth;
+}
+
+.rendezvous {
+  grid-area: rendezvous;
+}
+
+.aside-footer p {
+  text-decoration: none;
+  color: rgb(18, 18, 18);
+  font-size: 1.125rem;
+  font-weight: 500;
+  line-height: 1.375rem;
+  width: 310px;
+  border-bottom: 1px solid lightgrey;
+  padding-bottom: 15px;
+}
+
+footer hr {
+  border-top: 1px rgb(226, 226, 226) solid;
+}
+
+.footer-section2 {
+  display: grid;
+  margin-top: -400px;
+  margin-left: 30px;
+  column-gap: 12px;
+  grid-template-areas:
+    "h4 h4 h4"
+    "pick-1 pick-2 pick-3";
+  grid-template-columns: 280px 280px 280px;
+}
+
+.footer-section2 img {
+  width: 270px;
+}
+
+.footer-section2 h4 {
+  grid-area: h4;
+  margin-left: 40px;
+  border-top: 1px solid;
+  width: 99%;
+  padding-top: 10px;
+}
+
+.footer-section2 h3 {
+  grid-area: h4;
+}
+
+.pick-1 {
+  grid-area: pick-1;
+}
+
+.pick-2 {
+  grid-area: pick-2;
+}
+
+.pick-3 {
+  grid-area: pick-3;
+}
+
+.footer-section3 a {
+  text-decoration: none;
+}
+
+.footer-section1 > a {
+  display: inline;
+}
+
+.home-page-link a {
+  color: rgb(86, 123, 149);
+  font-size: 11px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 11px;
+  text-decoration: none;
+}
+
+.pre-footer a {
+  margin-top: 20px;
+  font-size: 16px;
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+  padding-top: 8px;
+}
+
+.footer-section2 > figure > span {
+  color: #666;
+  font-size: 12px;
+}
+
+.aside-footer p a {
+  text-decoration: none;
+  width: 310px;
+  color: black;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 125%;
+}
+
+.aside-footer p a:hover {
+  color: #666;
+}
+
+.title-section {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  border: solid;
+}
+
+.footer-section1 figure img {
+  width: 272px;
+  height: 182px;
+  margin: 5px;
+}
+
+.pre-footer {
+  display: grid;
+  grid-template-areas: "more-in-space filler more-popular";
+  grid-column-gap: 20px;
+  grid-template-columns: 920px 10px 474px;
+  grid-template-rows: repeat(1, 40px);
+  margin-top: 20px;
+  margin-left: 67px;
+  width: 65%;
+}
+
+.line {
+  border-top: 1px solid black;
+}
+
+.more-in-space {
+  padding-top: 10px;
+  width: 92.5%;
+}
+
+.most-popular {
+  margin-left: -64px;
+  width: 65%;
+}
+
+.more-in-space:hover {
+  text-decoration: underline;
+}
+
+.aside-footer h3 {
+  max-width: 120px;
+}
+
+.end-section-columns > div > p {
+  color: #000;
+  font-family: nyt-franklin, helvetica, arial, sans-serif;
+  text-decoration: none;
+  text-transform: capitalize;
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 16px;
+}
+
+.icon-text-container > div > span {
+  padding-top: 0;
+}
+
+.footer-section1 > figure > figcaption > h4 {
+  font-size: 1.125rem;
+  font-weight: 500;
+  color: rgb(18, 18, 18);
+  margin-left: 4px;
+  margin-top: -20px;
+}
+
+.footer-section1 > figure > figcaption > h4:hover {
+  color: #666;
+}
+
+.footer-section1 > figure > figcaption > span {
+  color: #666;
+  font-size: 12px;
+  margin-top: -10px;
+}
+
+.main-section h3 {
+  color: #000;
+  font-size: 13px;
+  font-weight: 700;
+  height: 20px;
+  line-height: 15px;
+  text-transform: uppercase;
+  margin: 0;
+}
+
+.end-section-columns > div > h3 {
+  color: #000;
+  font-size: 13px;
+  font-weight: 700;
+  height: 25px;
+  line-height: 15px;
+  text-transform: uppercase;
+}
+
+.footer-section2 > figure > h3 {
+  font-size: 1.125rem;
+  font-weight: 500;
+  color: rgb(18, 18, 18);
+  margin-left: 4px;
+  width: 270px;
+}
+
+.footer-section2 > figure > h6 {
+  margin-top: 0;
+  font-weight: 500;
+  width: 270px;
+  color: #666;
+  text-align: right;
+}
+
+.footer-section2 > figure > h3:hover {
+  color: #666;
+}
+
+.footer-section1 > figure > figcaption > h6 {
+  width: 270px;
+  font-size: 12px;
+  margin-top: -10px;
+  margin-left: 4px;
+  color: #666;
+  text-align: right;
+}
+
+.footer-section1 > figure > figcaption > p {
+  margin-left: 4px;
+  color: #999;
+  font-size: 12px;
+  padding-top: -20px;
+}
+
+.logo-homepage {
+  width: 90%;
+  justify-content: space-between;
+  border-top: 4px solid #ccc;
+  margin-left: 80px;
+}
+
+.logo-nyt {
+  margin-top: 10px;
+}
+
+.home-page-link {
+  margin-top: 10px;
+}
+
+.end-section-columns {
+  width: 90%;
+  justify-content: space-between;
+  margin-left: 80px;
+  margin-top: 40px;
+  align-items: flex-start;
+}
+
+.end-section-columns > div > p:hover {
+  color: rgb(86, 123, 149);
+  text-decoration: underline;
+}
+
+.column-subscribe-section {
+  padding-left: 15px;
+  padding-top: 0%;
+  height: 95%;
+  border-left: 2px solid #ccc;
+  align-items: flex-start;
+  margin-top: 10px;
+}
+
+.txt-ionicon-pos {
+  color: #000;
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 26px;
+}
+
+.column-subscribe-section > div.section {
+  color: #000;
+  font-size: 11px;
+}
+
+.column-subscribe-section > div.section > p:hover {
+  text-decoration: underline;
+}
+
+.column-subscribe-section > div.section:nth-child(3) {
+  border-top: 0.5px solid lightgrey;
+}
+
+.bottom-links {
+  width: 90%;
+  margin-left: 75px;
+  border-top: 0.5px solid lightgrey;
+  justify-content: space-around;
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+
+.bottom-links > span:hover {
+  text-decoration: underline;
+}
+
+.sticky-footer {
+  border-top: 1px solid #000;
+  bottom: 0;
+  height: 55px;
+  justify-content: space-around;
+}
+
+.sticky-footer-text {
+  margin-left: 280px;
+  font-size: 14px;
+  font-weight: normal;
+}
+
+.sticky-footer-arrow {
+  justify-content: space-between;
+}
+
+.arrow_up {
+  margin-left: 25px;
+}
+
+.expand-text {
+  color: #000;
+  font-weight: 700;
+  font-size: 12px;
+  text-transform: uppercase;
+}
