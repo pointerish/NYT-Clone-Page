@@ -29,6 +29,8 @@ nav {
   width: 100%;
   overflow: hidden;
   background-color: #fff;
+  padding-top: 10px;
+  z-index: 0;
 }
 
 .top-left {
@@ -179,6 +181,7 @@ hr {
   line-height: 30%;
   font-weight: bold;
   margin-top: 50px;
+  z-index: -1;
 }
 
 .image-descriptor p {
@@ -295,6 +298,7 @@ span[class*='title-in-span'] {
 .bottom-links > span {
   font-size: 11px;
   color: #666;
+  /* position: fixed; */
 }
 
 .figure3 > figcaption > span {
@@ -338,7 +342,7 @@ span[class*='title-in-span'] {
 
 .editor-picks {
   float: right;
-  margin-top: -9200px;
+  margin-top: -9720px;
   margin-right: 350px;
   margin-left: 1000px;
   width: 210px;
