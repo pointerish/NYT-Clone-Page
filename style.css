@@ -1,9 +1,38 @@
+body {
+  height: 11570px;
+}
+
+.times-font {
+  font-family: nyt-franklin, helvetica, arial, sans-serif;
+}
+
+.nyt-cheltenham {
+  font-family: nyt-cheltenham, georgia, "times new roman", times, serif;
+}
+
 .d-flex {
   display: flex;
 }
 
 .flex-column {
   flex-direction: column;
+}
+
+.sticky {
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid #e2e2e2;
+  padding-bottom: 10px;
+  position: fixed;
+  width: 100%;
+  overflow: hidden;
+  background-color: #fff;
+  padding-top: 10px;
+  z-index: 1;
+}
+
+nav {
+  top: 0;
 }
 
 .abs-pos {
@@ -17,20 +46,6 @@
 .main-content {
   margin-top: 30px;
   justify-content: center;
-}
-
-nav {
-  justify-content: space-between;
-  align-items: center;
-  border-bottom: 1px solid #e2e2e2;
-  padding-bottom: 10px;
-  position: fixed;
-  top: 0;
-  width: 100%;
-  overflow: hidden;
-  background-color: #fff;
-  padding-top: 10px;
-  z-index: 0;
 }
 
 .top-left {
@@ -160,7 +175,6 @@ hr {
 }
 
 .middle-p {
-  font-family: nyt-franklin, helvetica, arial, sans-serif;
   font-weight: 700;
   font-size: 15px;
   line-height: 19px;
@@ -298,7 +312,6 @@ span[class*='title-in-span'] {
 .bottom-links > span {
   font-size: 11px;
   color: #666;
-  /* position: fixed; */
 }
 
 .figure3 > figcaption > span {
@@ -437,7 +450,6 @@ footer {
 .aside-footer p {
   text-decoration: none;
   color: rgb(18, 18, 18);
-  font-family: nyt-cheltenham, georgia, "times new roman", times, serif;
   font-size: 1.125rem;
   font-weight: 500;
   line-height: 1.375rem;
@@ -499,7 +511,6 @@ footer hr {
 
 .home-page-link a {
   color: rgb(86, 123, 149);
-  font-family: nyt-franklin, helvetica, arial, sans-serif;
   font-size: 11px;
   font-style: normal;
   font-weight: 400;
@@ -509,7 +520,6 @@ footer hr {
 
 .pre-footer a {
   margin-top: 20px;
-  font-family: nyt-cheltenham, georgia, "times new roman", times, serif;
   font-size: 16px;
   text-decoration: none;
   color: black;
@@ -526,7 +536,6 @@ footer hr {
   text-decoration: none;
   width: 310px;
   color: black;
-  font-family: nyt-cheltenham, georgia, "times new roman", times, serif;
   font-size: 18px;
   font-weight: 500;
   line-height: 125%;
@@ -583,14 +592,6 @@ footer hr {
   max-width: 120px;
 }
 
-.footer-section1 > figure > span {
-  font-size: 12px;
-  margin-top: -10px;
-  font-family: nyt-cheltenham, georgia, "times new roman", times, serif;
-  color: #666;
-  font-weight: 500;
-}
-
 .end-section-columns > div > p {
   color: #000;
   font-family: nyt-franklin, helvetica, arial, sans-serif;
@@ -627,7 +628,6 @@ footer hr {
   color: #000;
   font-size: 13px;
   font-weight: 700;
-  font-family: nyt-franklin, helvetica, arial, sans-serif;
   height: 20px;
   line-height: 15px;
   text-transform: uppercase;
@@ -638,7 +638,6 @@ footer hr {
   color: #000;
   font-size: 13px;
   font-weight: 700;
-  font-family: nyt-franklin, helvetica, arial, sans-serif;
   height: 25px;
   line-height: 15px;
   text-transform: uppercase;
@@ -656,7 +655,6 @@ footer hr {
   margin-top: 0;
   font-weight: 500;
   width: 270px;
-  font-family: nyt-cheltenham, georgia, "times new roman", times, serif;
   color: #666;
   text-align: right;
 }
@@ -666,7 +664,6 @@ footer hr {
 }
 
 .footer-section1 > figure > figcaption > h6 {
-  font-family: nyt-cheltenham, georgia, "times new roman", times, serif;
   width: 270px;
   font-size: 12px;
   margin-top: -10px;
@@ -720,7 +717,6 @@ footer hr {
 }
 
 .txt-ionicon-pos {
-  font-family: nyt-franklin, helvetica, arial, sans-serif;
   color: #000;
   font-weight: 700;
   font-size: 12px;
@@ -751,4 +747,32 @@ footer hr {
 
 .bottom-links > span:hover {
   text-decoration: underline;
+}
+
+.sticky-footer {
+  border-top: 1px solid #000;
+  bottom: 0;
+  height: 55px;
+  justify-content: space-around;
+}
+
+.sticky-footer-text {
+  margin-left: 280px;
+  font-size: 14px;
+  font-weight: normal;
+}
+
+.sticky-footer-arrow {
+  justify-content: space-between;
+}
+
+.arrow_up {
+  margin-left: 25px;
+}
+
+.expand-text {
+  color: #000;
+  font-weight: 700;
+  font-size: 12px;
+  text-transform: uppercase;
 }
